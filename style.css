@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+}
+
+body {
+    background-color: rgb(215, 201, 238);
+    color: rgb(169, 82, 204);
+    font-family: 'Dancing Script';
+}
+header { 
+    width: 100%;
+    background-color: rgb(199, 168, 249);
+    font-family: 'Dancing Script', cursive;
+    border-radius: 1rem;
+    box-shadow: 0 0.7rem 0.7rem rgb(169, 82, 204);
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(169, 82, 204);
+    text-align: center;
+    padding: 1px;
+}
+.menu img{
+    align-items: right;
+}
+.menu {
+    width: 100%;
+    background-color:  rgb(199, 168, 249);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.menu ul{
+    text-align: center;
+    list-style: none;
+    position: center;
+    padding: 5px;
+}
+
+.menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color:rgb(169, 82, 204);
+}
+
+.menu ul li {
+    display: inline-block;
+    width: 150px;
+    padding: 5px 5px;
+    line-height: 5px;
+    padding: 5px;
+    position: relative;
+}
+
+.menu a:hover {
+    transition: all 0.4s ease;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(199, 168, 249);
+    font-family: 'Dancing Script', cursive;
+    border-radius: 1rem;
+    box-shadow: 0 0.7rem 0.7rem rgb(169, 82, 204);
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(169, 82, 204);
+    text-align: center;
+}
+
+.about-me img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid rgb(169, 82, 204) ;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(169, 82, 204);
+    font-size: 80px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(169, 82, 204);
+    font-size: 50px; 
+    text-align: center;
+}
+
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px; 
+    color: rgb(169, 82, 204);
+    text-decoration: none;
+}
+
+a:hover {
+    transition: all 0.4s ease;
+    color: white;
+}
+
+iframe{
+    width: 300;
+    height: 300;
+    padding: 50px 450px 50px;
+}
+
+main.cards {
+    display: flex;
+    padding: 50px 250px 50px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    max-height: 470px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 100px;
+    height: 100px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    margin: 40px 0;
+    font-size: 100%;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 100%;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+main.cards section.card button {
+    padding: 0.5 rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border:0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: white;
+}
+
+main.cards section.card.fale button{
+    background: linear-gradient(to right, rgb(207, 166, 226), rgb(178, 104, 199));
+}
+    
+main.cards section.card.social button{
+    background: linear-gradient(to right, rgb(207, 166, 226), rgb(178, 104, 199))
+}
+
+main.cards section.card.dúvidas button{
+    background: linear-gradient(to right, rgb(207, 166, 226), rgb(178, 104, 199));
+}
+
+main.cards section.card.catálogo button{
+    background: linear-gradient(to right, rgb(207, 166, 226), rgb(178, 104, 199));
+}
+
+main.cards section.card.fale{
+    box-shadow:  0 0.7rem 0.7rem  rgb(169, 82, 204);
+}
+
+main.cards section.card.social{
+    box-shadow:  0 0.7rem 0.7rem  rgb(169, 82, 204);
+}
+
+main.cards section.card.dúvidas{
+    box-shadow:  0 0.7rem 0.7rem  rgb(169, 82, 204);
+}
+
+main.cards section.card.catálogo{
+    box-shadow:  0 0.7rem 0.7rem  rgb(169, 82, 204);
+}
+
+.containerprincipal{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 50px 180px;
+}
+
+.container-inspiracao{
+    padding: 20px 10px 10px 20px; 
+    text-align: justify;
+}
+
+.container-carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+.content{
+    position: relative;
+}
+
+.main-heading{
+    padding: 2rem 0 2rem 0;
+}
+
+.slideshow-wrapper{
+    display: flex;
+    width: 300%;
+    height: 50%;
+    position: relative;
+    animation: slideshow 30s infinite;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+}
+
+.slide-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slideshow{
+    0%{ 
+        left:0;
+    }
+    10%{
+        left: -100%;
+    }
+    20%{
+        left: -100%;
+    }
+    25%{
+        left: -200%;
+    }
+    30%{
+        left: -200%;
+    }
+    40%{
+        left: -300%;
+    }
+    50%{
+        left: -300%;
+    }
+    60%{
+        left: -400%
+    }
+    70%{
+        left: -400%;
+    }
+    80%{
+        left: -500%;
+    }
+    90%{
+        left: -500%;
+    }
+    95%{
+        left: -300%
+    }
+    100%{
+        left: -300%;
+    }
+    110%{
+        left: -200%;
+    }
+    120%{
+        left: -200%;
+    }
+    130%{
+        left: -100%;
+    }
+    135%{
+        left: 0%;
+    }
+}
